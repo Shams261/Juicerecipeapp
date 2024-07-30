@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">JuiceRecipeApp</string>
+    <string name="about_text">Welcome to the Juice Recipe App! Create and customize your favorite juice recipes with ease.</string>
+    <string-array name="juice_array">
+        <item>Orange Juice</item>
+        <item>Apple Juice</item>
+        <item>Grape Juice</item>
+        <item>Mango Juice</item>
+    </string-array>
+</resources>

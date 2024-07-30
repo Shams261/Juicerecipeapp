@@ -1,0 +1,87 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tvAbout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Welcome to Juice Recipe App"
+            android:textSize="24sp"
+            android:textColor="@color/primaryColor"
+            android:gravity="center"
+            android:padding="16dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/background_textview" />
+
+        <TextView
+            android:id="@+id/tvJuiceType"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Choose your juice:"
+            android:textSize="18sp"
+            android:layout_marginBottom="10dp" />
+
+        <Spinner
+            android:id="@+id/spinnerJuice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/background_spinner"
+            android:layout_marginBottom="20dp" />
+
+        <RadioGroup
+            android:id="@+id/radioGroup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="20dp">
+
+            <RadioButton
+                android:id="@+id/radioSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Small" />
+
+            <RadioButton
+                android:id="@+id/radioLarge"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Large"
+                android:layout_marginStart="20dp" />
+        </RadioGroup>
+
+        <EditText
+            android:id="@+id/etIngredients"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter ingredients"
+            android:background="@drawable/background_edittext"
+            android:padding="10dp"
+            android:layout_marginBottom="20dp" />
+
+        <Button
+            android:id="@+id/btnSubmit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+            android:backgroundTint="@color/primaryColor"
+            android:textColor="@android:color/white"
+            android:layout_gravity="center"
+            android:padding="10dp"
+            android:layout_marginBottom="20dp" />
+
+        <TextView
+            android:id="@+id/tvSubmittedData"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Submitted Data:"
+            android:textSize="18sp"
+            android:layout_marginTop="20dp" />
+    </LinearLayout>
+</ScrollView>
