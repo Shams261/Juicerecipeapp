@@ -2,7 +2,7 @@
 
 Welcome to the Juice Recipe App! This app allows users to create and customize their favorite juice recipes with ease. 
 
-![Orange-Carrot-and-Ginger-Juice-scaled](https://github.com/user-attachments/assets/d287bd9a-bb4f-46a8-8de3-892d9c828eff)
+<img width="350" src="https://github.com/user-attachments/assets/d287bd9a-bb4f-46a8-8de3-892d9c828eff">
 
 
 ## Features
